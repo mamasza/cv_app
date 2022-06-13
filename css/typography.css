@@ -1,0 +1,50 @@
+p {
+	line-height: 150%;
+	margin: 0 0 4px;
+}
+a {
+	text-decoration: none;
+	cursor: pointer;
+}
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6,
+.strong {
+	text-transform: uppercase;
+}
+
+h1, .h1 {
+	font-size: 47px;
+	font-family: 'open_sansbold';
+	/* font-family: 'Open Sans', sans-serif; */
+	font-weight: 900;
+    word-spacing: 6px;
+	margin: 0 0 15px;
+} 
+h2, .h2 {
+	font-size: 28px;
+	font-family: 'open_sanssemibold';
+	margin: 0 0 12px;
+}
+h3, .h3 {
+	font-size: 29px;
+	font-family: 'open_sanssemibold';
+	margin: 0 0 12px;
+	word-spacing: 4px;
+}
+h4, h5, h6 {
+	margin: 5px 0 5px;
+	
+}
+.h3_bg .h3 {
+	font-family: 'open_sansbold';
+	/* font-family: 'Open Sans', sans-serif; */
+	font-weight: 700;
+	letter-spacing: 5px;
+}
+.col-right h1, .col-right h2, .col-right h3, .col-right h4, .col-right h5, .col-right h6,
+.col-right .h1, .col-right .h2, .col-right .h3, .col-right .h4, .col-right .h5, .col-right .h6,
+.col-right p,
+.col-right .strong,
+.col-right a {
+	color: var(--white);
+}
