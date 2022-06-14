@@ -32,3 +32,8 @@
         /* display: block; */
     }
 }
+@media only screen and (max-width: 1400px) {
+    .container {
+        width: 80%;
+    }
+}
